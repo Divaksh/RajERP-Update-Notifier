@@ -172,7 +172,7 @@ if(strcmp($Check1, $Check2) == 0){
 		if (strcmp($updated_new, $updated_old) != 0) {
 			function sendMessage() {
 				$content      = array(
-					"en" => file_get_contents("rajerp_updated.txt")
+					"en" => file_get_contents("/home/admin/web/divaksh.com/public_html/rajerp_updated.txt")
 				);
 				$heading = array(
 					"en" => 'RajERP Updated'
